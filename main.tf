@@ -4,14 +4,6 @@ terraform {
       source  = "hashicorp/vsphere"
     }
   }
-  cloud { 
-    
-    organization = "ramacompany" 
-
-    workspaces { 
-      name = "test-workspace-2" 
-    } 
-  } 
 }
 
 provider "vsphere" {
